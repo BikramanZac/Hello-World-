@@ -7,8 +7,8 @@ import imutils
 
 
 cap = cv2.VideoCapture(0)
-while (cap.isOpened()==False):
-        cap= cv2.VideoCapture(0)
+while (cap.isOpened()==False):     # This routine checks if the camera is opened yet or not 
+        cap= cv2.VideoCapture(0)   # We don't want to run next part until the camera is open 
 
 
 while(1):
